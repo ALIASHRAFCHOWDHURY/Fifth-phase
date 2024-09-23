@@ -12,6 +12,8 @@
                     extend: {
                       colors: {
                         clifford: '#da373d',
+                        navbg: '#FFEEE6',
+                        bgbtn: '#B4F461',
                       }
                     }
                   }
@@ -19,8 +21,49 @@
               </script>
 
 </head>
-<body>
-        <h1 class="text-4xl font-bold">welcome Home</h1>
+<body class="container md:mx-auto">
+       <header>
+        <div class="navbar bg-navbg p-5 rounded-xl">
+                <div class="navbar-start">
+                  <div class="btn px-8 bg-bgbtn ">Blog</div>
+                </div>
+                <div class="navbar-center">
+                        <img src="donate 1.png" alt="" >
+                  <a class=" md:text-xl text-sm font-semibold ps-3">Donate Bangladesh</a>
+                </div>
+                <div class="navbar-end">
+                        <img src="dollar 1.png" alt="">
+                  <p class=" ps-1 md:text-xl text-sm font-bold text-gray-500">5500</p>
+                  <p class="md:text-xl text-sm ps-1 font-bold text-gray-500">BDT</p>
+                 
+                </div>
+              </div>
+       </header>
+       <main>
+        <section class="md:mt-20 mt-5 flex justify-center">
+                <div class="space-x-5">
+                        <button class="btn btn-lg">Donation</button>
+                        <button class="btn btn-lg ">History</button>
+                </div>
+        </section>
+        <section class="md:mt-20 mt-5 flex justify-center">
+                <div class="card lg:card-side bg-base-100 shadow-xl md:w-3/4">
+                        <figure>
+                          <img
+                            src="prothomalo-english_2024-08-24_p38bd8of_prothomalo-bangla_2024-08-23_3wm8jkao_C_3.webp"
+                            alt="Album" />
+                        </figure>
+                        <div class="card-body">
+                                <div class="flex text-gray-600 bg-gray-100 w-2/12 rounded-xl">
+                                        <img src="dollar 1.png" alt="">
+                                        <p class="ps-2"><span>0</span> Bdt</p>
+                                </div>
+                                
+                          
+                        </div>
+                      </div>
+        </section>
+       </main>
         <script src="features.js"></script>
         <script src="utilities.js"></script>
         <script src="index.js"></script>
