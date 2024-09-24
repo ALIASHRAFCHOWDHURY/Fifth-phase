@@ -42,8 +42,8 @@
         </section>
         <section class="md:mt-10 mt-5 "></section>
                 <div class="space-x-5 flex justify-center">
-                        <button class="btn btn-lg">Donation</button>
-                        <button class="btn btn-lg ">History</button>
+                        <button id="donation-section" class="btn btn-lg">Donation</button>
+                        <button id="history-section" class="btn btn-lg ">History</button>
                 </div>
         </section>
         <div class="divider "></div>
@@ -80,7 +80,7 @@
                                     <div class="modal-action flex justify-center">
                                       <form class="" method="dialog">
                                         <!-- if there is a button in form, it will close the modal -->
-                                        <button class="btn ">Close</button>
+                                        <button class="btn ">Confirmation Close</button>
                                       </form>
                                     </div>
                                   </div>
@@ -92,7 +92,7 @@
         <section class="md:mt-20 mt-5 flex justify-center">
                 <div class=" card border-2 border-gray-200 w-3/4 flex md:flex-row flex-col p-2">
                         <div class="md:w-[2000px] ">
-                                <img class="rounded-xl"   src="prothomalo-english_2024-08-24_p38bd8of_prothomalo-bangla_2024-08-23_3wm8jkao_C_3.webp" alt="">
+                                <img class="rounded-xl"   src="feni.png" alt="">
                         </div>
                         <div class="">
                                 <div class="flex text-gray-600 bg-gray-100 md:w-3/12 rounded-xl p-2 my-5">
@@ -117,7 +117,7 @@
         <section class="md:mt-20 mt-5 flex justify-center">
                 <div class=" card border-2 border-gray-200 w-3/4 flex md:flex-row flex-col p-2">
                         <div class="md:w-[2000px] ">
-                                <img class="rounded-xl"   src="prothomalo-english_2024-08-24_p38bd8of_prothomalo-bangla_2024-08-23_3wm8jkao_C_3.webp" alt="">
+                                <img class="rounded-xl"   src="quota-protest.png" alt="">
                         </div>
                         <div class="">
                                 <div class="flex text-gray-600 bg-gray-100 md:w-3/12 rounded-xl p-2 my-5">
@@ -139,11 +139,13 @@
 
                 </div>
         </section>
-        <section class="history container">
-                        
-        </section>
-        
        </main>
+       <section   class="">
+        <h1 class="text-4xl font-bold text-center my-10">Transaction History</h1>
+                <div id="history-container">
+                        
+                </div>
+       </section>
         <script src="features.js"></script>
         <script src="utilities.js"></script>
         <script src="index.js"></script>
