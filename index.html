@@ -42,13 +42,13 @@
         </section>
         <section class="md:mt-10 mt-5 "></section>
                 <div class="space-x-5 flex justify-center">
-                        <button id="donation-section" class="btn btn-lg">Donation</button>
-                        <button id="history-section" class="btn btn-lg ">History</button>
+                        <button onclick="makeGreen()" id="donation-button" class="btn btn-lg">Donation</button>
+                        <button  onclick="makeAlsoGreen()" id="history-button" class="btn btn-lg ">History</button>
                 </div>
         </section>
         <div class="divider "></div>
        </header>
-       <main class="mt-72">
+       <main id="donation-section" class="mt-72">
         <section class="md:mt-20 mt-5 flex justify-center">
                 <div class=" card border-2 border-gray-200 w-3/4 flex md:flex-row flex-col p-2">
                         <div class="md:w-[2000px] ">
@@ -94,14 +94,14 @@
                         <div class="md:w-[2000px] ">
                                 <img class="rounded-xl"   src="feni.png" alt="">
                         </div>
-                        <div class="">
+                        <div class="ps-5">
                                 <div class="flex text-gray-600 bg-gray-100 md:w-3/12 rounded-xl p-2 my-5">
                                         <img src="dollar 1.png" alt="">
                                         <p class="ps-2"><span id="donation-fund-two">0</span> Bdt</p>
                                 </div>
-                                <div>
-                                        <h1 class="font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
-                                        <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                                <div class="">
+                                        <h1 class="font-bold">Donate for Flood Relief in Feni,Bangladesh</h1>
+                                        <p>The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath</p>
                                 </div>
                                 <form action="">
                                         <input id="add-money-input-two" type="text" class="bg-gray-100 w-full p-2 my-3 rounded-xl border-0" placeholder="Write Donation Amount">
@@ -125,8 +125,8 @@
                                         <p class="ps-2"><span id="donation-fund-three">0</span> Bdt</p>
                                 </div>
                                 <div>
-                                        <h1 class="font-bold">Donate for Flood at Noakhali, Bangladesh</h1>
-                                        <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                                        <h1 class="font-bold">Aid for Injured in the Quota Movement</h1>
+                                        <p> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this </p>
                                 </div>
                                 <form action="">
                                         <input id="add-money-input-three" type="text" class="bg-gray-100 w-full p-2 my-3 rounded-xl border-0" placeholder="Write Donation Amount">
@@ -140,8 +140,8 @@
                 </div>
         </section>
        </main>
-       <section   class="">
-        <h1 class="text-4xl font-bold text-center my-10">Transaction History</h1>
+       <section id="history-section"  class=" hidden mt-72">
+        <h1 class="text-4xl font-bold text-center my-10 ">Transaction History</h1>
                 <div id="history-container">
                         
                 </div>
