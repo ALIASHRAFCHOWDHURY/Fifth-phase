@@ -22,30 +22,33 @@
 
 </head>
 <body class="container md:mx-auto">
-       <header>
-        <div class="navbar bg-navbg p-5 rounded-xl">
-                <div class="navbar-start">
-                  <div id="blog-section" class="btn px-8 bg-bgbtn ">Blog</div>
+       <header class="bg-slate-200 rounded-xl  fixed top-0 left-0 w-full shadow-lg z-50 mb-20">
+        <section>
+                <div class="navbar bg-navbg p-5 rounded-xl">
+                        <div class="navbar-start">
+                          <div id="blog-section" class="btn px-8 bg-bgbtn ">Blog</div>
+                        </div>
+                        <div class="navbar-center">
+                                <img src="donate 1.png" alt="" >
+                          <a class=" md:text-xl text-sm font-semibold ps-3">Donate Bangladesh</a>
+                        </div>
+                        <div class="navbar-end">
+                                <img src="dollar 1.png" alt="">
+                          <p id="account-balance" class=" ps-1 md:text-xl text-sm font-bold text-gray-500">5500</p>
+                          <p class="md:text-xl text-sm ps-1 font-bold text-gray-500">BDT</p>
+                         
+                        </div>
                 </div>
-                <div class="navbar-center">
-                        <img src="donate 1.png" alt="" >
-                  <a class=" md:text-xl text-sm font-semibold ps-3">Donate Bangladesh</a>
-                </div>
-                <div class="navbar-end">
-                        <img src="dollar 1.png" alt="">
-                  <p id="account-balance" class=" ps-1 md:text-xl text-sm font-bold text-gray-500">5500</p>
-                  <p class="md:text-xl text-sm ps-1 font-bold text-gray-500">BDT</p>
-                 
-                </div>
-              </div>
-       </header>
-       <main>
-        <section class="md:mt-20 mt-5 flex justify-center">
-                <div class="space-x-5">
+        </section>
+        <section class="md:mt-10 mt-5 "></section>
+                <div class="space-x-5 flex justify-center">
                         <button class="btn btn-lg">Donation</button>
                         <button class="btn btn-lg ">History</button>
                 </div>
         </section>
+        <div class="divider "></div>
+       </header>
+       <main class="mt-72">
         <section class="md:mt-20 mt-5 flex justify-center">
                 <div class=" card border-2 border-gray-200 w-3/4 flex md:flex-row flex-col p-2">
                         <div class="md:w-[2000px] ">
@@ -86,6 +89,7 @@
 
                 </div>
         </section>
+        
        </main>
         <script src="features.js"></script>
         <script src="utilities.js"></script>
